@@ -1,0 +1,24 @@
+:root {
+    --quae-color-background: #ededed;
+    --quae-box-shadow-high: 2px 2px 4px #c9c9c9, -2px -2px 4px #ffffff;
+    --quae-box-shadow-low: 1px 1px 2px #c9c9c9, -1px -1px 2px #ffffff;
+    --quae-inner-shadow-shallow: inset 1px 1px 3px #c9c9c9,
+        inset -1px -1px 3px #ffffff;
+    --quae-inner-shadow-deep: inset 2px 2px 5px #c9c9c9,
+        inset -2px -2px 5px #ffffff;
+
+    --quae-border-color: #f8f8f8;
+    /* --quae-text-inner-shadow: 1px 3px 6px #fff, 0 0 0 #000, 1px 3px 6px #fff; */
+}
+
+.dark {
+    --quae-color-background: #34393c;
+    --quae-box-shadow-high: 2px 2px 4px #111111, -2px -2px 4px #444444;
+    --quae-box-shadow-low: 1px 1px 2px #111111, -1px -1px 2px #444444;
+    --quae-inner-shadow-shallow: inset 1px 1px 3px #111111,
+        inset -1px -1px 3px #444444;
+    --quae-inner-shadow-deep: inset 2px 2px 5px #111111,
+        inset -2px -2px 5px #444444;
+
+    --quae-border-color: #464646;
+}
