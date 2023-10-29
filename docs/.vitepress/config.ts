@@ -135,7 +135,7 @@ export default defineConfig({
         },
 
         socialLinks: [
-          { icon: 'github', link: 'https://github.com/MakerHu/Quae' }
+          { icon: 'github', link: 'https://github.com/ssegsa/ssegsa.github.io' }
         ]
       },
     }
