@@ -64,7 +64,7 @@
 ## 正常情况下添加并发表一篇文章的步骤
 
 1. 先准备好一篇 markdown 格式的文章，假设叫 `java.md`
-2. 在 `docs` 目录中找到该文章对应分类的文件夹，如果没有就创建相应的分类文件夹存放该文章，java.md 这篇文章我想放到 专业实践-技术路线 模块中，那么就将其放到 `/practice/technology/` 文件夹下
+2. 在 `docs` 目录中找到该文章对应分类的文件夹，如果没有就创建相应的分类文件夹存放该文章，`java.md` 这篇文章我想放到 专业实践-技术路线 模块中，那么就将其放到 `/practice/technology/` 文件夹下
 3. 到 `/docs/.vitepress/config.ts` 中配置文章的边栏目录，比如这篇文章我要放到“专业实践模块”的“技术路线”子模块，那就在 `/docs/.vitepress/config.ts` 中找到 `function sidebarPractice()`，并在技术路线的配置中添加一行 `{ text: "Java 后端", link: "/practice/technology/java" }`，这样导航栏的技术路线子模块就会多一个“Java 后端”目录了
 4. 本地构建，看一下效果
    ```sh
