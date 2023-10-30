@@ -10,12 +10,12 @@ hero:
   tagline: 致力于打破软件学院的信息壁垒
   image:
     src: /logo.svg
-    alt: sse-gsa
+    alt: SSE-GSA
     width: 500
   actions:
     - theme: brand
       text: 就业技能树
-      link: /practice/
+      link: /resource/skill/java
     - theme: alt
       text: 我要投稿
       link: https://github.com/ssegsa/ssegsa.github.io
