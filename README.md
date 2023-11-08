@@ -76,9 +76,15 @@
 
 ## 维护者
 
-<table>
-  <td align="center"><a href="https://github.com/MakerHu"><img src="https://avatars.githubusercontent.com/u/58479245?s=50" width="50px;" alt="MakerHu"/><br /><sub><b>MakerHu</b></sub></a></td>
-</table>
+感谢项目的所有贡献人员❤️
+
+贡献列表根据代码提交情况自动生成
+
+<a href="https://github.com/ssegsa/ssegsa.github.io/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ssegsa/ssegsa.github.io" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
 
 ## License
 
