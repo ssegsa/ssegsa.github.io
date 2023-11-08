@@ -39,6 +39,16 @@ features:
     link: /resource/
 ---
 
+<div class="centered-container">
+  <div class="contributer-title">维护者</div>
+</div>
+<div class="centered-container">
+  <div class="contributer-container">
+    <a href="https://github.com/ssegsa/ssegsa.github.io/graphs/contributors">
+      <img class="contributer" src="https://contrib.rocks/image?repo=ssegsa/ssegsa.github.io" />
+    </a>
+  </div>
+</div>
 
 <style>
 :root {
@@ -60,5 +70,26 @@ features:
   :root {
     --vp-home-hero-image-filter: blur(72px);
   }
+}
+
+.contributer-title {
+  margin: 100px 0 20px 0;
+  font-size: 1.5em;
+  font-weight: 500
+}
+
+.centered-container {
+  display: flex;
+  justify-content: center; /* 水平居中对齐 */
+  align-items: center; /* 垂直居中对齐 */
+}
+
+.contributer-container {
+  width: 60%;
+}
+
+.contributer {
+  display: block;
+  margin: 0 auto;
 }
 </style>
