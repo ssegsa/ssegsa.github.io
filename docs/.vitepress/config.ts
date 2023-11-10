@@ -1,10 +1,17 @@
 import { defineConfig, type DefaultTheme } from "vitepress";
+import taskLists from 'markdown-it-task-lists';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/",
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   lastUpdated: true,
+  markdown: {
+    config: (md) => {
+      // use more markdown-it plugins!
+      md.use(taskLists)
+    }
+  },
   themeConfig: {
     logo: "/logo.svg",
     outline: "deep", // 文章右侧目录层级

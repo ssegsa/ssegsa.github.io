@@ -38,6 +38,7 @@
 
 **框架相关的目录**
 
+- components：组件包，可以用 vue 写一些自定义的组件并嵌入到 markdown 文档中，比如项目的贡献者列表就是用组件实现的
 - docs：核心部分，存放网站的文章内容和网站的基本配置
   - .vitepress/config.ts：网站的核心配置文件，包括导航配置、目录配置、logo配置、语言配置等，详见[官方文档配置说明](https://vitepress.dev/reference/default-theme-config)，或者参考 VitePress 的[源代码](https://github.com/vuejs/vitepress/blob/main/docs/.vitepress/config.ts)中的配置
   - public：存放网站等一些公共资源，比如logo和网站图标
@@ -52,7 +53,7 @@
 **网站文章相关的目录**
 
 - docs
-  - about：了解我们页面
+  - about：了解我们页面以及一些总体介绍性的文章
   - academic：存放学术科研模块相关文章
   - practice：存放专业实践模块相关文章
   - resource：存放资源仓库模块相关文章
