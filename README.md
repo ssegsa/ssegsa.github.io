@@ -80,12 +80,7 @@
 
 ## 维护者
 
-感谢项目的所有贡献人员❤️
-
-贡献列表根据代码提交情况自动生成
-
-<!-- readme: collaborators,contributors -start -->
-<!-- readme: collaborators,contributors -end -->
+感谢项目的所有[贡献人员](https://github.com/ssegsa/ssegsa.github.io/graphs/contributors)❤️
 
 ## License
 

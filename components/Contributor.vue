@@ -3,7 +3,7 @@
     <ContributorCard
       class="contrib-card"
       v-for="contributor in state.contributors"
-      :link="contributor.url"
+      :link="contributor.html_url"
       :img-url="contributor.avatar_url"
       :name="contributor.login"
       :title="contributor.login"
