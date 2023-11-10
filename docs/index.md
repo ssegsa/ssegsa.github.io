@@ -39,7 +39,7 @@ features:
     link: /resource/
 ---
 
-<div class="centered-container">
+<!-- <div class="centered-container">
   <div class="contributer-title">维护者</div>
 </div>
 <div class="centered-container">
@@ -48,7 +48,7 @@ features:
       <img class="contributer" src="https://contrib.rocks/image?repo=ssegsa/ssegsa.github.io" />
     </a>
   </div>
-</div>
+</div> -->
 
 <style>
 :root {

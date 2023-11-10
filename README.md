@@ -84,11 +84,8 @@
 
 贡献列表根据代码提交情况自动生成
 
-<a href="https://github.com/ssegsa/ssegsa.github.io/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ssegsa/ssegsa.github.io" />
-</a>
-
-Made with [contrib.rocks](https://contrib.rocks).
+<!-- readme: collaborators,contributors -start -->
+<!-- readme: collaborators,contributors -end -->
 
 ## License
 
