@@ -10,7 +10,7 @@ export default defineConfig({
     outline: "deep", // 文章右侧目录层级
     footer: {
       message: "Released under the MIT License.",
-      copyright: "Copyright © 2023-present ssegsa",
+      copyright: "Copyright © 2023-present SSEGSA",
     },
     search: {
       provider: "local",

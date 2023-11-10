@@ -14,7 +14,7 @@ hero:
     width: 500
   actions:
     - theme: brand
-      text: 就业技能树
+      text: 技能树
       link: /resource/skill/java
     - theme: alt
       text: 我要投稿
