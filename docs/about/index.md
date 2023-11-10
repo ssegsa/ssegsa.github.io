@@ -79,3 +79,13 @@ markdown文件。文件名需要为“网站投稿-姓名-学号”。
 **报名方式**
 
 下载报名表，填写完毕后在截止时间前发送到指定邮箱。
+
+## 6 感谢所有贡献者
+
+如果你通过 Pull Request 的方式为项目做出贡献（包括项目代码以及文章内容）我们将通过脚本获取项目的贡献者，并生成下方的列表展示在首页，期待你的加入！
+
+<Contributor></Contributor>
+
+<script setup>
+import Contributor from '../../components/Contributor.vue'
+</script>

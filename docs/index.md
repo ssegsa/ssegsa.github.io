@@ -10,7 +10,7 @@ hero:
   tagline: 致力于打破软件学院的信息壁垒
   image:
     src: /logo.svg
-    alt: SSE-GSA
+    alt: SSEGSA
     width: 500
   actions:
     - theme: brand
@@ -39,16 +39,15 @@ features:
     link: /resource/
 ---
 
-<!-- <div class="centered-container">
-  <div class="contributer-title">维护者</div>
-</div>
 <div class="centered-container">
-  <div class="contributer-container">
-    <a href="https://github.com/ssegsa/ssegsa.github.io/graphs/contributors">
-      <img class="contributer" src="https://contrib.rocks/image?repo=ssegsa/ssegsa.github.io" />
-    </a>
-  </div>
-</div> -->
+  <div class="contributer-title">感谢项目的所有贡献者❤️</div>
+</div>
+
+<Contributor class="contributor"></Contributor>
+
+<script setup>
+import Contributor from '../components/Contributor.vue'
+</script>
 
 <style>
 :root {
@@ -84,12 +83,7 @@ features:
   align-items: center; /* 垂直居中对齐 */
 }
 
-.contributer-container {
-  width: 60%;
-}
-
-.contributer {
-  display: block;
-  margin: 0 auto;
+.contributor {
+  width: 80%;
 }
 </style>
