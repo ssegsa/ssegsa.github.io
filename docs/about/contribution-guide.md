@@ -209,7 +209,7 @@ printf("C 代码");
 
 6. **直接在项目中写文章**
 
-    请查看项目到 README 的[目录结构介绍](https://github.com/MakerHu/ssegsa.github.io#%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E4%BB%8B%E7%BB%8D)以及[正常情况下添加并发表一篇文章的步骤](https://github.com/MakerHu/ssegsa.github.io#%E6%AD%A3%E5%B8%B8%E6%83%85%E5%86%B5%E4%B8%8B%E6%B7%BB%E5%8A%A0%E5%B9%B6%E5%8F%91%E8%A1%A8%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E7%9A%84%E6%AD%A5%E9%AA%A4)
+    请查看项目的 README 的[目录结构介绍](https://github.com/MakerHu/ssegsa.github.io#%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E4%BB%8B%E7%BB%8D)以及[正常情况下添加并发表一篇文章的步骤](https://github.com/MakerHu/ssegsa.github.io#%E6%AD%A3%E5%B8%B8%E6%83%85%E5%86%B5%E4%B8%8B%E6%B7%BB%E5%8A%A0%E5%B9%B6%E5%8F%91%E8%A1%A8%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E7%9A%84%E6%AD%A5%E9%AA%A4)
 
 7. **提交你对项目的更改**
     
