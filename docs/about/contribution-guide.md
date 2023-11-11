@@ -329,4 +329,4 @@ printf("C 代码");
     └── my-github-info.json    # 贡献者的信息
     ```
 
-    邮箱地址：test#test.com（⚠️ 注意将 `#` 更改为 `@`）
+    邮箱地址：msg-ssegsa#proton.me（⚠️ 注意将 `#` 更改为 `@`）
