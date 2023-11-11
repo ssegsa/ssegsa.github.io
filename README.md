@@ -1,5 +1,3 @@
-ssegsa 修改 21.41
-
 ## 环境搭建
 
 - [nodejs](https://nodejs.org/en)：v18.17.1（版本需要v18以上）
