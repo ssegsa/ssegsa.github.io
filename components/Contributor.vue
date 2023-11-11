@@ -6,7 +6,7 @@
       :link="contributor.html_url"
       :img-url="contributor.avatar_url"
       :name="contributor.login"
-      :title="contributor.login"
+      :title="'感谢 '+contributor.login + ' 的贡献！'"
     />
     <ContributorCard
       class="contrib-card"
@@ -14,7 +14,7 @@
       :link="contributor.html_url"
       :img-url="contributor.avatar_url"
       :name="contributor.login"
-      :title="contributor.login"
+      :title="'感谢 '+contributor.login + ' 的贡献！'"
     />
   </div>
 </template>

@@ -14,9 +14,40 @@
 
 但在投稿前，首先需要准备一篇 **markdown 语法**的文章。因此，发表一篇文章一共需要两步：[1. 写文章](#使用-markdown-语法写文章) [2. 投稿](#投稿方式)
 
+## 规范与要求
+
+::: tip 投稿内容
+1. 学术科研、就业、技能实践方面的资源链接、文件、博客链接等
+
+2. 关于以上内容的，自己编写的指南、教程、博客等
+:::
+
+::: warning 注意事项
+1. 投稿内容不得涉及违背社会主义核心价值观的内容，不得包含反党、反人民和反社会的言论，不得出现有损学校和学院名誉的内容
+
+2. 投稿内容不得包含侵犯其他个人或组织利益的主观言论
+:::
+
+为了保证部署后内容能够正常显示，在正式开始写文章前请注意以下几点：
+
+- 文件名使用英文以及连字符组成，不能出现空格以及其他特殊符号，如：`contribution-guide.md`
+- 如果文章中需要展示图片，请将图片放到与文章名同名的文件夹中，并使该文件夹与文章位于同级目录下
+  ```sh
+  .
+  ├── contribution-guide     # 存放图片的文件夹（与文章同名）
+  │   └── demo.jpg           # 图片
+  └── contribution-guide.md  # 文章
+  ```
+- 引用图片时请使用**相对路径**，如上面例子的文件结构，文章 `contribution-guide.md` 中引用了 `demo.jpg` 的图片，则在文章中通过下面的方式引用
+  ```md
+  ![图片替代名](contribution-guide/demo.jpg)
+  ```
+
 ## 使用 markdown 语法写文章
 
 本站的文章仅支持使用 markdown 语法，如果你不熟悉 markdown 语法，请不用担心！因为我们在写文章时一般只需要用到其中的很少语法，如：标题、加粗、斜体、代码块、图片、超链接等。下面为你演示这几种基础语法等使用，其他更多语法请参考[Markdown 教程](https://markdown.com.cn/basic-syntax/)，以及本网站支持的[拓展语法](https://vitepress.dev/guide/markdown)
+
+⚠️ 特别说明一下，请注意文章的命名要求，如果文章中携带图片，也请注意图片的存放规范，具体查看[规范与要求](#规范与要求)。
 
 ~~~md
 # 标题一
@@ -64,9 +95,8 @@
 当然也可以嵌入视频，最好是B站视频
 
 <iframe
-    src="//player.bilibili.com/player.html?aid=786787338&bvid=BV1414y1B7Na&cid=1223612545&page=1"
+    src="//player.bilibili.com/player.html?aid=786787338&bvid=BV1414y1B7Na&cid=1223612545&page=1&autoplay=0"
     scrolling="no"
-    border="0"
     frameborder="no"
     framespacing="0"
     allowfullscreen="true"
@@ -75,7 +105,6 @@
     border-radius: 10px;
     width: 100%;
     aspect-ratio: 16/9;
-    box-shadow: 2px 2px 4px #c9c9c9;
     "
 ></iframe>
 
@@ -129,7 +158,6 @@ printf("C 代码");
 
 [➡️ 点击查看渲染后的效果](markdown-demo.md)
 
-
 ## 投稿方式
 
 ### 通过 Pull Request 投稿
@@ -139,7 +167,7 @@ printf("C 代码");
 
 1. **准备好 markdown 文章**
 
-    将你的 markdown 文章，如果文章有图片的话，也请准备好存放图片的文件夹
+    根据[规范与要求](#规范与要求)准备好你的 markdown 文章
 
 2. **准备好贡献者信息（非必需）**
 
@@ -202,4 +230,15 @@ printf("C 代码");
 
     接着你只需要复制该 Json 并删除无用字段，只保留 `login` `avatar_url` `html_url` 三个字段即可。
 
-3. **将文章、图片资源以及贡献者信息打包到一个压缩文件里发送到邮箱**
+3. **将文章、图片资源以及贡献者信息打包到一个压缩文件夹里发送到邮箱**
+   
+    压缩文件中包含：
+    ```sh
+    .
+    ├── contribution-guide     # 存放图片的文件夹（与文章同名）
+    │   └── demo.jpg           # 图片
+    ├── contribution-guide.md  # 文章
+    └── my-github-info.json    # 贡献者的信息
+    ```
+
+    邮箱地址：test#test.com（⚠️ 注意将 `#` 更改为 `@`）

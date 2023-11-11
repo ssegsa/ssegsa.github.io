@@ -3,7 +3,7 @@
 layout: home
 
 title: 软件学院研究生会
-titleTemplate: 信息整合网站
+titleTemplate: 信息共享网站
 
 hero:
   name: "软件学院研究生会"
@@ -49,6 +49,25 @@ features:
 import Contributor from '../components/Contributor.vue'
 </script>
 
+
+<style scope>
+.contributer-title {
+  margin: 100px 0 20px 0;
+  font-size: 1.5em;
+  font-weight: 500
+}
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contributor {
+  width: 80%;
+}
+</style>
+
 <style>
 :root {
   --vp-home-hero-name-color: transparent;
@@ -69,21 +88,5 @@ import Contributor from '../components/Contributor.vue'
   :root {
     --vp-home-hero-image-filter: blur(72px);
   }
-}
-
-.contributer-title {
-  margin: 100px 0 20px 0;
-  font-size: 1.5em;
-  font-weight: 500
-}
-
-.centered-container {
-  display: flex;
-  justify-content: center; /* 水平居中对齐 */
-  align-items: center; /* 垂直居中对齐 */
-}
-
-.contributor {
-  width: 80%;
 }
 </style>

@@ -79,7 +79,21 @@
 5. 效果没问题就提交上传到 GitHub，过一会儿 GitHub Action 就会自动打包部署到 GitHub Pages
 6. 最后就是到 https://ssegsa.github.io/ 看效果了
 
-## 维护者
+## 将项目的贡献者手动添加到首页
+
+在 `/docs/public/contributors.json` 中添加贡献者的基础信息配置，该配置信息有贡献者提供，如下
+
+```json
+{
+   "login": "贡献者用户名",
+   "avatar_url": "https://avatars.githubusercontent.com/u/{GitHub id}?v=4",
+   "html_url": "https://github.com/{用户名}"
+}
+```
+
+通过 Pull Request 或者直接提交代码的方式，会通过 API 自动获取贡献者信息，不用手动添加，此方式主要用于通过邮箱投稿的贡献者。
+
+## 贡献者
 
 感谢项目的所有[贡献人员](https://github.com/ssegsa/ssegsa.github.io/graphs/contributors)❤️
 
