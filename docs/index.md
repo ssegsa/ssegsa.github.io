@@ -40,7 +40,7 @@ features:
 ---
 
 <div class="centered-container">
-  <div class="contributer-title">感谢项目的所有贡献者❤️</div>
+  <div class="contributer-title">感谢项目的所有贡献者 ❤️</div>
 </div>
 
 <Contributor class="contributor"></Contributor>
