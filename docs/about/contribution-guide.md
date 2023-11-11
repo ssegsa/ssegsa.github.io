@@ -162,6 +162,94 @@ printf("C 代码");
 
 ### 通过 Pull Request 投稿
 
+1. **本地搭建环境**
+    
+    这个在项目到 README 的[环境搭建](https://github.com/MakerHu/ssegsa.github.io#%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA)中有详细介绍，这里不做展开
+
+2. **Fork 仓库到你的 GitHub 中**
+   
+    - 进入仓库地址 [https://github.com/ssegsa/ssegsa.github.io](https://github.com/ssegsa/ssegsa.github.io)
+    - 点击仓库右上角的 `Fork` 按钮
+    - 进入 `Create a new fork` 页面，不用填写任何信息，直接点击 `Create fork` 等待 Fork 仓库创建完成
+
+3. **克隆 Fork 项目到本地**
+   
+    - 在刚刚创建完成的 Fork 仓库中，点击 `Code` 按钮，复制克隆url
+    - 在本地创建一个工作空间文件夹，用来存放克隆的代码
+    - 进入工作空间文件夹，克隆 Fork 的项目到本地
+      ```sh
+      git clone https://github.com/{你的用户名}/ssegsa.github.io.git
+      ```
+4. **将原始仓库添加为 upstream 仓库**
+
+    为了能够拉取原始仓库的变更到你的 Fork 仓库中，需要将原始仓库添加为 upstream 仓库。
+
+    ```sh
+    # 进入克隆到本地的项目根目录
+    cd ssegsa.github.io.git
+
+    # 将原始仓库添加为 upstream 仓库
+    git remote add upstream https://github.com/ssegsa/ssegsa.github.io.git
+    ```
+
+5. **在本地运行项目**
+
+    ```sh
+    # 进入项目根目录
+    npm install
+
+    # 本地启动项目分为两种，一种是开发模式，一种是预览模式，开发模式改代码后会实时在浏览器更新效果，预览模式则是更接近部署后的效果。
+    # 开发模式（一般使用这种模式就行）
+    npm run docs:dev
+
+    # 预览模式，先 build 后 preview
+    npm run docs:build
+    npm run docs:preview
+    ```
+
+6. **直接在项目中写文章**
+
+    请查看项目到 README 的[目录结构介绍](https://github.com/MakerHu/ssegsa.github.io#%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E4%BB%8B%E7%BB%8D)以及[正常情况下添加并发表一篇文章的步骤](https://github.com/MakerHu/ssegsa.github.io#%E6%AD%A3%E5%B8%B8%E6%83%85%E5%86%B5%E4%B8%8B%E6%B7%BB%E5%8A%A0%E5%B9%B6%E5%8F%91%E8%A1%A8%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E7%9A%84%E6%AD%A5%E9%AA%A4)
+
+7. **提交你对项目的更改**
+    
+    ```sh
+    git add .
+    git commit -m "post: 新增文章XXX"
+    ```
+
+8. **推送前同步原仓库的代码到本地**
+    
+    ```sh
+    # 获取原始仓库的变更
+    git fetch upstream
+
+    # 合并变更
+    git merge --no-ff upstream/main
+    # 如果有冲突，在合并完冲突后执行以下命令
+    git add .
+    git commit -m "Merge conflict"
+    ```
+
+9.  **推送更改到你的 Fork 仓库中**
+
+    ```sh
+    git push origin main
+    ```
+
+10. **发起 Pull Request 请求**
+
+    - 在你 Fork 的仓库中进入 `Pull Request` 标签页，点击 `New pull request` 按钮新建 Pull Request
+      ![Pull Request](contribution-guide/new-pull-request-1.jpg)
+    - 确认请求合并的分支，并点击 `Create pull request`
+      ![Pull Request](contribution-guide/new-pull-request-2.jpg)
+    - 添加标题，格式为 `post: 你的文章名`，还可以在下方添加一些补充描述，填完后点击 `Create pull request`
+      ![Pull Request](contribution-guide/new-pull-request-3.jpg)
+
+
+
+11. **等待管理员合并你的请求**
+
 
 ### 通过邮箱投稿
 
