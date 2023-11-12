@@ -99,4 +99,4 @@
 
 ## License
 
-[MIT](https://github.com/MakerHu/Quae/blob/main/LICENSE)
+[MIT](https://github.com/ssegsa/ssegsa.github.io/blob/main/LICENSE)
