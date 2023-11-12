@@ -194,7 +194,7 @@ function sidebarResource(): DefaultTheme.SidebarItem[] {
   return [
     { text: "资源仓库", link: "/resource/" },
     {
-      text: "技能树",
+      text: "资源分类",
       collapsed: false,
       items: [
         { text: "Java", link: "/resource/skill/java" },

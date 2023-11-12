@@ -15,9 +15,9 @@ hero:
   actions:
     - theme: brand
       text: 技能树
-      link: /resource/skill/java
+      link: /practice/technology/
     - theme: alt
-      text: 我要投稿
+      text: 投稿指南
       link: /about/contribution-guide
 
 features:
