@@ -168,6 +168,7 @@ function sidebarPractice(): DefaultTheme.SidebarItem[] {
         { text: "C++ 后端", link: "/practice/technology/cpp" },
         { text: "Python 后端", link: "/practice/technology/python" },
         { text: "算法", link: "/practice/technology/algorithm" },
+        { text: "demo", link: "/practice/technology/article-demo" },
       ],
     },
     {
