@@ -103,7 +103,7 @@
 当然也可以嵌入视频，最好是B站视频
 
 <iframe
-    src="//player.bilibili.com/player.html?aid=786787338&bvid=BV1414y1B7Na&cid=1223612545&page=1&autoplay=0"
+    src="//player.bilibili.com/player.html?aid=748399347&bvid=BV16C4y1E7hj&cid=1332460625&p=1&autoplay=0"
     scrolling="no"
     frameborder="no"
     framespacing="0"
@@ -169,6 +169,20 @@ printf("C 代码");
 ## 投稿方式
 
 ### 通过 Pull Request 投稿
+
+<iframe
+    src="//player.bilibili.com/player.html?aid=748399347&bvid=BV16C4y1E7hj&cid=1332460625&p=1&autoplay=0"
+    scrolling="no"
+    frameborder="no"
+    framespacing="0"
+    allowfullscreen="true"
+    style="
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    aspect-ratio: 16/9;
+    "
+></iframe>
 
 1. **本地搭建环境**
     
