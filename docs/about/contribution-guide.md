@@ -1,7 +1,7 @@
 ---
 head:
   - - meta
-    - name: description
+    - name: og:description
       content: 分享知识真的很快乐！快来投稿吧！内附详细视频教程～
   - - meta
     - name: keywords
