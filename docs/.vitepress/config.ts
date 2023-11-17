@@ -4,7 +4,15 @@ import taskLists from 'markdown-it-task-lists';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/",
-  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
+    // ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
+    ["link", { rel: "icon", href: '/favicon.ico' }],
+    ['meta', { name: 'og:type', content: 'website' }],
+    ['meta', { name: 'og:locale', content: 'zh-CN' }],
+    ['meta', { name: 'og:site_name', content: '软件研会' }],
+    ['meta', { name: 'og:image', content: 'https://ssegsa.github.io/ssegsa-og.jpg' }],
+  ],
   lastUpdated: true,
   markdown: {
     config: (md) => {
@@ -62,6 +70,10 @@ export default defineConfig({
         docFooter: {
           prev: "上一篇",
           next: "下一篇",
+        },
+        editLink: {
+          pattern: 'https://github.com/ssegsa/ssegsa.github.io/edit/main/docs/:path',
+          text: '在 GitHub 上编辑此页'
         },
         //顶部导航栏
         nav: nav(),
