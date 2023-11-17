@@ -1,3 +1,13 @@
+---
+head:
+  - - meta
+    - name: description
+      content: 分享知识真的很快乐！快来投稿吧！内附详细视频教程～
+  - - meta
+    - name: keywords
+      content: 投稿 投稿指南 软件学院研究生会 软件研会
+---
+
 # 投稿指南
 
 ::: tip 提示
