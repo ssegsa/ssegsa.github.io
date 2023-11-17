@@ -12,6 +12,7 @@ export default defineConfig({
     ['meta', { name: 'og:locale', content: 'zh-CN' }],
     ['meta', { name: 'og:site_name', content: '软件研会' }],
     ['meta', { name: 'og:image', content: 'https://ssegsa.github.io/ssegsa-og.jpg' }],
+    ['meta', { name: 'og:url', content: 'https://ssegsa.github.io/' }],
     ['meta', { name: 'og:description', content: '就喜欢被知识包围的感觉！' }],
   ],
   lastUpdated: true,
