@@ -3,10 +3,10 @@
 layout: home
 
 title: 软件学院研究生会
-titleTemplate: 信息共享网站
+titleTemplate: 信息分享网站
 
 hero:
-  name: "软件学院研究生会"
+  name: 软件学院研究生会
   tagline: 致力于打破软件学院的信息壁垒
   image:
     src: /logo.svg
