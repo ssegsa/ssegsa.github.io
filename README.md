@@ -1,7 +1,7 @@
 ## 环境搭建
 
-- [nodejs](https://nodejs.org/en)：v18.17.1（版本需要v18以上）
-- [VitePress](https://vitepress.dev/)：v1.0.0-rc.24（版本1.0以上应该就行，但没都试过）
+- [nodejs](https://nodejs.org/en)：v18.17.1（v16、v18为测试运行过的版本，均可使用）
+- [VitePress](https://vitepress.dev/)：v1.0.0-rc.24（大版本为1的应该都行，目前未全部尝试）
   ```sh
   # 安装 VitePress，如果要指定版本请到官网查询
   npm add -D vitepress
