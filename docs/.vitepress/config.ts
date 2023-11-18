@@ -101,6 +101,10 @@ export default defineConfig({
 function nav(): DefaultTheme.NavItem[] {
   return [
     {
+      text: '首页',
+      link: '/'
+    },
+    {
       text: '学术科研',
       link: '/academic/',
       activeMatch: '/academic/'
@@ -111,7 +115,7 @@ function nav(): DefaultTheme.NavItem[] {
       activeMatch: '/practice/'
     },
     {
-      text: '资源仓库',
+      text: '资源库',
       link: '/resource/',
       activeMatch: '/resource/'
     },
@@ -206,13 +210,14 @@ function sidebarPractice(): DefaultTheme.SidebarItem[] {
 // 资源仓库模块的目录
 function sidebarResource(): DefaultTheme.SidebarItem[] {
   return [
-    { text: "资源仓库", link: "/resource/" },
+    { text: "资源库", link: "/resource/" },
     {
       text: "资源分类",
       collapsed: false,
       items: [
-        { text: "Java", link: "/resource/skill/java" },
-        { text: "Vue", link: "/resource/skill/vue" },
+        { text: "综合网站集合", link: "/resource/external-resources" },
+        { text: "Java", link: "/resource/java" },
+        { text: "Vue", link: "/resource/vue" },
       ],
     },
   ];
