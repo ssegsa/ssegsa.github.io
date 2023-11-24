@@ -16,6 +16,7 @@ export default defineConfig({
     ['meta', { name: 'og:description', content: '就喜欢被知识包围的感觉！' }],
   ],
   lastUpdated: true,
+  ignoreDeadLinks: true,
   markdown: {
     config: (md) => {
       // use more markdown-it plugins!
