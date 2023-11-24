@@ -10,6 +10,8 @@ head:
 
 # Vue 实现登录注册功能（前后端分离完整案例）
 
+`作者：MakerHu`
+
 > 本文面向小白，用 Vue 实现了登录注册的功能，并能够与 SpringBoot 后端进行数据交互。麻雀虽小，五脏俱全，本项目用到了 vue-router、axios、Element UI、代理服务器、导航守卫等技术或工具，与本站的另一篇文章[快速上手SpringBoot项目（登录注册保姆级教程）](/practice/java/springboot-login-demo) 共同组成了前后端分离项目的整体，适合小白上手 Vue + SpringBoot + Mysql 的项目开发。
 
 文章由作者本人转载至本站，原地址：[Vue 实现登录注册功能（前后端分离完整案例） | MakerHu 的博客](https://www.makerhu.com/posts/78e35d03/)

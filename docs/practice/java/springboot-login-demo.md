@@ -10,6 +10,8 @@ head:
 
 # 快速上手SpringBoot项目（登录注册保姆级教程）
 
+`作者：MakerHu`
+
 > 本文章对SpringBoot开发后端项目结构做了简单介绍，并示范了使用SpringBoot+MySQL实现登录的后端功能，与本站的另一篇文章 [Vue 实现登录注册功能（前后端分离完整案例）](/practice/vue/vue-login-demo) 共同组成了前后端分离项目的整体，适合小白上手 Vue + SpringBoot + Mysql 的项目开发。
 
 
