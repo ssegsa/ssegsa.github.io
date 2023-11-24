@@ -176,19 +176,6 @@ function sidebarPractice(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
-      text: "技术路线",
-      collapsed: false,
-      items: [
-        { text: "Java 后端", link: "/practice/technology/java" },
-        { text: "Vue 前端", link: "/practice/technology/vue" },
-        { text: "Go 后端", link: "/practice/technology/go" },
-        { text: "C 后端", link: "/practice/technology/c" },
-        { text: "C++ 后端", link: "/practice/technology/cpp" },
-        { text: "Python 后端", link: "/practice/technology/python" },
-        { text: "算法", link: "/practice/technology/algorithm" },
-      ],
-    },
-    {
       text: "求职经验",
       collapsed: false,
       items: [
@@ -200,9 +187,37 @@ function sidebarPractice(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
+      text: "其他经验",
+      collapsed: false,
+      items: [
+        { text: "学会检索", link: "/practice/other/learn-to-search" },
+        { text: "版本管理工具Git使用指南", link: "/practice/other/git" },
+        { text: "文件管理的一种思路", link: "/practice/other/file-management" },
+        { text: "怎样做好小组作业", link: "/practice/other/teamwork" },
+      ],
+    },
+    {
+      text: "Java",
+      collapsed: false,
+      items: [
+        { text: "Java 技术路线", link: "/practice/java/" },
+        { text: "快速上手SpringBoot项目（登录注册保姆级教程）", link: "/practice/java/springboot-login-demo" },
+      ],
+    },
+    {
+      text: "Vue",
+      collapsed: false,
+      items: [
+        { text: "Vue 技术路线", link: "/practice/vue/" },
+        { text: "Vue 实现登录注册功能（前后端分离完整案例）", link: "/practice/vue/vue-login-demo" },
+      ],
+    },
+    {
       text: "算法刷题",
       collapsed: false,
-      items: [{ text: "刷题路线", link: "/practice/algorithm/experience" }],
+      items: [
+        { text: "刷题路线", link: "/practice/algorithm/" },
+      ],
     },
   ];
 }
