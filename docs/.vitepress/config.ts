@@ -195,6 +195,7 @@ function sidebarPractice(): DefaultTheme.SidebarItem[] {
         { text: "版本管理工具Git使用指南", link: "/practice/other/git" },
         { text: "文件管理的一种思路", link: "/practice/other/file-management" },
         { text: "怎样做好小组作业", link: "/practice/other/teamwork" },
+        { text: "本科学习经验分享", link: "/practice/other/undergraduate-study-experience" },
       ],
     },
     {
