@@ -188,6 +188,8 @@ intitle:"搜索技巧" intitle:"google" OR intitle:"谷歌" site:zhihu.com
    - 后端：SpringBoot，并在后端调用 ChatGPT 的 API
    - 数据库：MySQL
 
+   ![](undergraduate-study-experience/system-structure.jpg)
+
 3. **初始化项目、验证关键技术的可行性**
 
    确定了整体的技术后，我们需要首先验证一下可行性，而不是直接开始很完善地开发。在这个项目里，最重要的就是验证下面几个数据流能不能跑通：
