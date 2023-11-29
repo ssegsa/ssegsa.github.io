@@ -1,3 +1,13 @@
+---
+head:
+  - - meta
+    - name: og:description
+      content: 经验分享！根据个人的真实经历总结，欢迎大家参考！
+  - - meta
+    - name: keywords
+      content: 软件工程 本科 学习经验
+---
+
 # 本科学习经验分享
 
 `作者：MakerHu`
