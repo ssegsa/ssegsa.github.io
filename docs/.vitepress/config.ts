@@ -196,6 +196,8 @@ function sidebarPractice(): DefaultTheme.SidebarItem[] {
         { text: "文件管理的一种思路", link: "/practice/other/file-management" },
         { text: "怎样做好小组作业", link: "/practice/other/teamwork" },
         { text: "本科学习经验分享", link: "/practice/other/undergraduate-study-experience" },
+        { text: "本科新生经验分享（学习、竞赛、入党等）", link: "/practice/other/undergraduate-study-experience-01" },
+        { text: "2023年全国大学生可以参加的比赛目录", link: "/practice/other/competition-list" },
       ],
     },
     {
