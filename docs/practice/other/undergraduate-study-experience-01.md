@@ -106,8 +106,7 @@ head:
 
 ### 更多比赛
 
-链接：2023年全国大学生可以参加的比赛目录（转载）
-http://localhost:5173/practice/other/competition-list.html
+[2023年全国大学生可以参加的比赛目录（转载）](https://ssegsa.github.io/practice/other/competition-list.html)
 
 ### 竞赛时间
 
