@@ -48,7 +48,9 @@ https://www.wanfangdata.com.cn/index.html
 
 ### 免费网站
 
-https://tool.yovisun.com/scihub/（此链接并非官网，而是影子图书馆的可用链接列表，和z-library，随时可能失效）
+https://tool.yovisun.com/scihub/
+
+>（此链接并非官网，而是影子图书馆的可用链接列表，和z-library，随时可能失效）
 
 SCI Hub，SCI论文资源的免费下载网站。一般在学校内并不需要这种网站，资源也不敢保证是全的。需要科学上网。
 
