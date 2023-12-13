@@ -136,6 +136,10 @@ function sidebarAcademic(): DefaultTheme.SidebarItem[] {
           text: "期刊与会议介绍",
           link: "/academic/paper/journal-and-conference-introduction",
         },
+        {
+          text: "论文相关网站介绍",
+          link: "/academic/paper/paper-website",
+        },
       ],
     },
   ];
