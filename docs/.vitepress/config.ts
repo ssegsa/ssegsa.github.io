@@ -202,6 +202,7 @@ function sidebarPractice(): DefaultTheme.SidebarItem[] {
         { text: "本科学习经验分享", link: "/practice/other/undergraduate-study-experience" },
         { text: "本科新生经验分享（学习、竞赛、入党等）", link: "/practice/other/undergraduate-study-experience-01" },
         { text: "2023年全国大学生可以参加的比赛目录", link: "/practice/other/competition-list" },
+        { text: "大三学生学习、考研、保研、实习、毕设建议", link: "/practice/other/junior-advise" },
       ],
     },
     {
