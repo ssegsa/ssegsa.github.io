@@ -196,6 +196,7 @@ function sidebarPractice(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: "学会检索", link: "/practice/other/learn-to-search" },
+        { text: "调用 API 前，先做一次地址预检", link: "/practice/other/api-url-preflight" },
         { text: "版本管理工具Git使用指南", link: "/practice/other/git" },
         { text: "文件管理的一种思路", link: "/practice/other/file-management" },
         { text: "怎样做好小组作业", link: "/practice/other/teamwork" },
